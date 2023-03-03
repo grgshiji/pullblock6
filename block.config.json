@@ -1,0 +1,14 @@
+{
+  "name": "pullblock6",
+  "blockId": "8i_1evnx0d7QK0GqPDPde",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/grgshiji/pullblock6",
+    "ssh": "git@github.com:grgshiji/pullblock6.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
